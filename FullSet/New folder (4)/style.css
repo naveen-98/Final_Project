@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1e1e1e;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.card-container {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    background-color: #2e2e2e;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 250px;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    color: #fff;
+}
+
+.card-header {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    display: flex;
+    gap: 5px;
+}
+
+.new-tag, .updated-tag, .heart-icon {
+    padding: 2px 5px;
+    border-radius: 3px;
+    font-size: 12px;
+    color: #fff;
+}
+
+.new-tag {
+    background-color: #00c853;
+}
+
+.updated-tag {
+    background-color: #2979ff;
+}
+
+.heart-icon {
+    background-color: transparent;
+    color: red;
+    font-size: 20px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.card-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+h2 {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+p {
+    font-size: 14px;
+    color: #bbb;
+}
+
+.tags {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin: 10px 0;
+}
+
+.tier, .difficulty, .type {
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 12px;
+    color: #fff;
+}
+
+.tier {
+    background-color: #80d8ff;
+}
+
+.difficulty.easy {
+    background-color: #00e676;
+}
+
+.difficulty.medium {
+    background-color: #ffd600;
+}
+
+.type.offensive {
+    background-color: #ff1744;
+}
+
+.details {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-size: 12px;
+    color: #888;
+}
